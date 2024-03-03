@@ -7,9 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<style type="text/css">
 	
-		div{border: 1px solid red;}
+	
 		.container{background-color: #a48b40;}
-		h1{color: white;}
+		h1{color: white; font-size: 65px;}
+		h2{color: black; font-size: 65px;}
+	.fullstack span{color: white; font-size:20px;}
+	.experience h1{color: black; font-size: 100px;}
+	div .philosophy{background-color: #e4c867;}
+	img{width:100%}
+	.skills h1{color: white; font-size: 30px;}
 
 
 	</style>
@@ -23,14 +29,14 @@
 
 					<!-- nav bar starts here -->
 
-				<nav class="navbar navbar-expand-lg bg-light">
+				<nav class="navbar navbar-expand-lg bg-#e4c867">
 				  <div class="container-fluid">
-				    <a class="navbar-brand" href="#">John.O</a>
+				    <a class="navbar-brand name" style="font-size: 50px; color:white; " href="#">John.O</a>
 				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				      <span class="navbar-toggler-icon"></span>
 				    </button>
 				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				      <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-direction:end">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
 				        <li class="nav-item">
 				          <a class="nav-link active" aria-current="page" href="#">Experience</a>
 				        </li>
@@ -44,7 +50,7 @@
 				          <a class="nav-link active" aria-current="page" href="#">Contact</a>
 				        </li>
 				        <li class="nav-item">
-				          <a class="nav-link" href="#">Link</a>
+				          <a class="nav-link" href="#"></a>
 				        </li>
 				        <li class="nav-item dropdown">
 				          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -64,20 +70,14 @@
 					<!-- nav bar ends here -->
 
 				</div>
-			</div>
+			</div><br><br>
 			<div class="row">
 			<div class="col-md-6">
 
 				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/oj1.png" class="d-block w-100 img-fluid rounded-top-5 img-thumbnail rounded-circle border-10" alt="senator wear image">
-    </div>
-    <div class="carousel-item">
-      <img src="images/oando.jpg" class="d-block w-100 img-fluid rounded-start rounded-end" alt="Oando shirt image">
-    </div>
-    <div class="carousel-item">
-      <img src="images/move.png" class="d-block w-100 img-fluid rounded-top-5 img-thumbnail rounded-circle" alt="on the move image">
+      <img src="images/mypic.png" class="d-block w-100 img-fluid rounded-top-5 img-thumbnail rounded-circle" alt="senator wear image">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -93,36 +93,77 @@
 
 
 			</div>
-			<div class="col-md-6">
-				<h1>I'm John Owolabi.</h1>
-				<h1>A Fullstack Web Dev.</h1>
-				<h1>based in Nigeria.</h1>
+			<div class="col-md-6 fullstack">
+				<h1>I'm John <br>Owolabi.</h1>
+				<h1>A Fullstack <br>Web Dev.</h1>
+				<h2>based in Nigeria.</h2>
 				<span>I'm probably the most passionate developer you will ever get to work with. If you have a great project that needs some amazing skills, I'm here for you.</span>
 			</div>
-			</div>
+			</div><br><br>
 
 			<!-- experience  area......................................................................................... -->
 			<div class="row">
-				<div class="col-md-12"></div>
-				<div class="col-md-4"></div>
-				<div class="col-md-4"></div>
-				<div class="col-md-4"></div>
+				<div class="col-md-12">
+					<h3>WORK EXPERIENCE</h3>
+					<h1>Companies I have  worked<br> for in the past.</h1>
+				</div>
+				<div class="col-md-4 experience">
+					<h1>01</h1>
+					<h4><span style="color:greenyellow;">Any Blue Chip Company</span> Fullstack Dev,</h4>
+						<p>I am open to any role in Web Development be it Front-end, Back-end or Fullstack.</p>
+				</div>
+				<div class="col-md-4 experience">
+					<h1>02</h1>
+					<h4><span style="color:red;">UBA</span> Customer Experience Expert,</h4>
+						<p>I am currently an active, adept, team player with great product knowledge and delighting my customer in a professional manner in United Bank of Africa.</p>
+				</div>
+				<div class="col-md-4 experience">
+					<h1>03</h1>
+					<h4><span style="color:blue;">ECOBANK</span> Compliance/KYC Analyst,</h4>
+						<p>I worked with Ecobank for over 2years as a Compliance/KYC Analyst where I veted all documents provided by customers ensuring they are in compliance before their account is created.</p>
+				</div>
 			</div>
 
 			<!-- philosophy  area .........................................................................................-->
 			<div class="row">
-				<div class="col-md-6"></div>
-				<div class="col-md-6"></div>
-			</div>
+				<div class="col-md-6 philosophy"><br><br>
+					<h1>Philosophy & values</h1>
+					<p>I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, hospitality, & Excellence.</p><br>
+					<button class="btn btn-outline-primary">More About me</button>
+					
+				</div>
+				<div class="col-md-6 philosophy">
+					<img src="images/uni.png" alt="Universe image" class="img-fluid rounded-start rounded-end">
+				</div>
+			</div><br>
 
 			<!-- skill  area ..............................................................................................-->
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-2"></div>
-				<div class="col-md-2"></div>
-				<div class="col-md-2"></div>
-				<div class="col-md-2"></div>
-				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<h1>Skillset</h1>
+					<p>With skills in over 4 different fields, I am the perfect person to hire when it comes to full fledged project. 
+					Whatever your needs are, I can pretty much take on any challenge.</p><br>
+				</div>
+				<div class="col-md-4 skills">
+					<h1>Front-end</h1>
+					<p>I've developed vast knowledge as a front-end developer and worked on different projects applying my knowledge of html, css, bootstrap and javascript.</p><br>
+				</div>
+				<div class="col-md-4 skills">
+					<h1>Back-end</h1>
+					<p>I've functioned well as a back-end developer working with a number of teams both on-site and remote to execute projects applying my knowledge of mySQL, Python, flask and Ajax.</p><br>
+				</div>
+				<div class="col-md-4 skills">
+					<h1>Fullstack</h1>
+					<p>You get the very best out of me when I function as a fullstack developer viewing and birthing a whole project from beginning to the end. Seeing any of the project I handled will convince you.</p><br>
+				</div>
+				<div class="col-md-4 skills">
+					<h1>Customer experience Expert</h1>
+					<p>Working with working with United Bank of Africa (UBA) has exposed me to what customers want, when and how they want it.</p><br>
+				</div>
+				<div class="col-md-4 skills">
+					<h1>Compliance/KYC Analyst</h1>
+					<p>My experience at Ecobank as Compliance/KYC Analyst has helped developed keen attention to details and how important it is to do a thorough check.</p><br>
+				</div>
 			</div>
 
 			<!-- my project area ..........................................................................................-->
