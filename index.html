@@ -16,7 +16,9 @@
 	div .philosophy{background-color: #e4c867;}
 	img{width:100%}
 	.skills h1{color: white; font-size: 30px;}
-
+		.week3 span{color: blue;}
+		.projects{flex-grow:1}
+		div .footer{background-color: #e4c867;}
 
 	</style>
 </head>
@@ -41,12 +43,9 @@
 				          <a class="nav-link active" aria-current="page" href="#">Experience</a>
 				        </li>
 				         <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="#">Work</a>
+				          <a class="nav-link active" aria-current="page" href="#projects">Work</a>
 				        </li>
-				         <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="#">Photography</a>
-				        </li>
-				         <li class="nav-item">
+				        <li class="nav-item">
 				          <a class="nav-link active" aria-current="page" href="#">Contact</a>
 				        </li>
 				        <li class="nav-item">
@@ -132,8 +131,8 @@
 					<button class="btn btn-outline-primary">More About me</button>
 					
 				</div>
-				<div class="col-md-6 philosophy">
-					<img src="images/uni.png" alt="Universe image" class="img-fluid rounded-start rounded-end">
+				<div class="col-md-6 philosophy"><br><br>
+					<img src="images/uni.png" alt="Universe image" class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
 				</div>
 			</div><br>
 
@@ -168,53 +167,74 @@
 
 			<!-- my project area ..........................................................................................-->
 			<div class="row">
-				<div class="col-md-6"></div>
-				<div class="col-md-6"></div>
-				<div class="col-md-6"></div>
-				<div class="col-md-6"></div>
-			</div>
-
-			<!-- Testimonia area ..........................................................................................-->
-			<div class="row">
-				<div class="col-md-6"></div>
-				<div class="col-md-6 row" style="flex-direction: column;">
-					<div class="col-md-12">
+				<div class="col-md-4 projects">
 						<div class="card" style="width: 18rem;">
-						  <img src="..." class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						  </div>
+							  <img src="images/wk1project.png" class="card-img-top" alt="...">
+	 						 <div class="card-body">
+	 						 	<h3>Institution Website</h3>
+	  						  <p class="card-text">The above was my first week project. At first I thought I will not be able to do it. But as soon as I started, inspiration keep coming and I continued, even though it took me a lot of time to get it completed. I'm really glad I took up the challenge of the 3months intensive Bootcamp.</p>
+		 						</div>
 						</div>
-					</div>
-					<div class="col-md-12"></div>
-					<div class="col-md-12"></div>
+				</div>
+				<div class="col-md-4 projects">
+							<div class="card" style="width: 18rem;">
+							  <img src="images/shoeweb2.png" class="card-img-top" alt="...">
+	 						 <div class="card-body">
+	 						 	<h3>Shoe Website</h3>
+	  						  <p class="card-text">This was an assignment in week 2.</p>
+		 						</div>
+						</div>
+				</div>
+				<div class="col-md-4 projects">
+							<div class="card" style="width: 18rem;">
+							  <img src="images/wk2project.png" class="card-img-top" alt="...">
+	 						 <div class="card-body">
+	 						 	<h3>Institution Website</h3>
+	  						  <p class="card-text">Revamping of the institution website was my Week 2 Project.</p>
+		 						</div>
+								</div>
+				</div>
+
+			<!-- contact area .............................................................................................-->
+			
+			<div class="row"><br><br>
+				<div class="col-md-6"><br><br>
+					<h1>Let’s talk business</h1>
+					<p>Now that you know a lot about me, let me know if you are interested to work with me.</p>
+				</div>
+				<div class="col-md-6"><br><br>
+					<form action="" method="get">
+			<div class="col-md-12">
+					<label for="username" class="form-label"></label>
+					<input type="text" name="username" placeholder="Email address or phone number" class="form-control">
+			</div>
+			<div class="col-md-12">
+				<label for="password" class="form-label"></label>
+				<input type="Password" name="pass" placeholder="Enter your password" class="form-control mb-3">
+			</div>
+			<div class="col-md-12">
+				<label for="message" class="form-label"></label>
+				<input type="text" name="message" placeholder="message" class="form-control mb-3">
+			</div>
+			<div class="col-md-12">
+				<a href="index.html" class="btn btn-primary color-primary col-12 mb-3 ">Let's get Started</a>
+			</div>
+			</form>
 				</div>
 			</div>
 
-			<!-- Photography area .........................................................................................-->
-			<div class="row">
-				<div class="col-md-12"><button></button></div>
-			</div>
-			<div class="row">
-				<div class="col-md-3"></div>
-				<div class="col-md-3"></div>
-				<div class="col-md-3"></div>
-				<div class="col-md-3"></div>
-			</div>
-
-			<!-- contact area .............................................................................................-->
-			<div class="row">
-				<div class="col-md-6"></div>
-				<div class="col-md-6"></div>
-			</div>
-
 			<!-- footer area ..............................................................................................-->
-			<div class="row">
-				<div class="col-md-6"></div>
-				<div class="col-md-6"></div>
+			<div class="row footer">
+				<div class="col-md-6"><br>
+					<h5>No copyright &copy 2024. Owolabi John.</h5>
+				</div>
+				<div class="col-md-6"><br>
+					<h5>Address: No 12 Ikota first gate Ajah, Lekki, Lagos State.</h5>
+					<h5>Phone No.:07067509905</h5>
+				</div>
 			</div>
-
-		</div>
+	</div>
+		
 <script src="bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
 </body>
 </html>
